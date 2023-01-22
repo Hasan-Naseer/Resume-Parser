@@ -1,0 +1,3 @@
+process.env.BERT_LARGE_NER = 'YOUR_HUGGING_FACE_KEY';
+process.env.EMSI_CLIENT_ID = 'YOUR_EMSI_CLIENT_ID'; 
+process.env.EMSI_SECRET = 'YOUR_EMSI_SECRET';
