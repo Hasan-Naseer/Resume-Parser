@@ -6,7 +6,7 @@ require('./env.js');
 
 let resumeData = {};
 
-const file = readFile('./portfolio1.pdf');
+const file = readFile(process.env.RESUME_FILE_PATH);
 
 const find_name = (full_field) => {
         for (let i = 0; i<full_field.length; i++) {
